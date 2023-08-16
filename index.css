@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(180deg, rgb(77, 136, 160),rgb(0, 61, 165)) fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    line-height: 1.2;
+}
+
+nav > #autobar {
+    display: flex;
+    overflow: hidden;
+    padding: .25em 1em;
+    background: #ddd;
+    list-style: none;
+    margin: 0;
+}
+
+#autobar > li:first-child::after {
+    content: "  |  ";
+    white-space: pre;
+}
+
+nav > #autobar > #odin {
+    margin-left: auto;
+}
+
+#bottombar {
+    background: #ddd;
+    text-align: center;
+    padding: .25em 1em;
+}
+
+img {
+    border-radius: .5em;
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#header > h1 {
+    padding: .25em 1em;
+    background: #f2f2f2;
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: rgb(77, 136, 160);
+}
+
+.card {
+    display: flex;
+    margin: 30px;
+    background: #f2f2f2;
+    margin: 1em 0em;
+    padding: 1em;
+    justify-content: space-around;
+}
+
+.car {
+    background: #ddd;
+    display: flex;
+    border: 1px solid white;
+    border-radius: .5em;
+    width: 100vw;
+}
+
+.speclist {
+    display: flexbox;
+    list-style: none;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    background: linear-gradient(90deg, darkgrey, #ddd) ;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px;
+    border-bottom: 1px solid darkgrey;
+    padding: 2px;
+}
+
+.specbox {
+    border: 2px solid rgb(77, 136, 160);
+    border-radius: .3em;
+    margin: 5px;
+    padding: .5em;
+    width: 250px;
+    flex-shrink: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.speclist > p {
+    text-align: left;
+}
+
+.proconbox {
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+    min-width: 30vw;
+    flex-basis: 1px;
+    
+}
+
+.proconbox > h2 {
+    align-items: center;
+}
