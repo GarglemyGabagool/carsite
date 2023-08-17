@@ -2,24 +2,36 @@ body {
     background: linear-gradient(180deg, rgb(77, 136, 160),rgb(0, 61, 165)) fixed;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
+    padding: 0;
     line-height: 1.2;
 }
 
-nav > #autobar {
-    display: flex;
-    overflow: hidden;
-    padding: .25em 1em;
+.topbar {
     background: #ddd;
-    list-style: none;
+    padding: 10px;
+    border-bottom: 1px dotted hsl(0deg 0% 0% / 0.2);
+}
+
+.topbar > ul {
+    display: flex;
+    gap: 12px;
+    list-style-type: none;
+    align-items: baseline;
+    padding: 0;
     margin: 0;
 }
 
-#autobar > li:first-child::after {
-    content: "  |  ";
-    white-space: pre;
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
-nav > #autobar > #odin {
+a:hover {
+    color: rgb(0, 61, 165);
+    font-weight: 700;
+}
+
+li.odin {
     margin-left: auto;
 }
 
@@ -43,6 +55,7 @@ img {
     text-align: center;
     font-size: 50px;
     margin: 0;
+    border-bottom: 2px solid darkgrey;
     /* color: rgb(77, 136, 160); */
 }
 
@@ -61,12 +74,7 @@ img {
     border: 1px solid white;
     border-radius: .5em;
     justify-content: center;
-}
-
-.speclist {
-    display: flexbox;
-    list-style: none;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 h2 {
@@ -110,5 +118,5 @@ p {
     flex-direction: column;
     padding: .5em;
     width: 1000px;
-    margin: 7px;
+    margin: 7px 0px;
 }
