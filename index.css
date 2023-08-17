@@ -43,7 +43,7 @@ img {
     text-align: center;
     font-size: 50px;
     margin: 0;
-    color: rgb(77, 136, 160);
+    /* color: rgb(77, 136, 160); */
 }
 
 .card {
@@ -51,8 +51,8 @@ img {
     margin: 30px;
     background: #f2f2f2;
     margin: 1em 0em;
-    padding: 1em;
-    justify-content: space-around;
+    padding: .5em;
+    justify-content: space-evenly;
 }
 
 .car {
@@ -60,7 +60,7 @@ img {
     display: flex;
     border: 1px solid white;
     border-radius: .5em;
-    width: 100vw;
+    justify-content: center;
 }
 
 .speclist {
@@ -75,6 +75,10 @@ h2 {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     font-size: 25px;
+}
+
+.secondbox > h2 {
+    background: linear-gradient(90deg, #ddd, darkgrey);
 }
 
 h3 {
@@ -94,22 +98,17 @@ h3 {
 }
 
 p {
-    margin: 0;
+    margin: .5em 1em;
 }
 
 .speclist > p {
     text-align: left;
 }
 
-.proconbox {
+.secondbox {
     display: flex;
     flex-direction: column;
     padding: .5em;
-    min-width: 30vw;
-    flex-basis: 1px;
-    
-}
-
-.proconbox > h2 {
-    align-items: center;
+    width: 1000px;
+    margin: 7px;
 }
