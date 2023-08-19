@@ -1,30 +1,52 @@
 body {
-    background: linear-gradient(180deg, rgb(77, 136, 160),rgb(0, 61, 165)) fixed;
+    background: linear-gradient(180deg, rgb(77, 136, 160),rgb(0, 61, 165)) scroll;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.2;
 }
 
-.topbar {
-    background: #ddd;
-    padding: 10px;
-    border-bottom: 1px dotted hsl(0deg 0% 0% / 0.2);
-}
-
-.topbar > ul {
+.navigation {
     display: flex;
-    gap: 12px;
-    list-style-type: none;
-    align-items: baseline;
-    padding: 0;
-    margin: 0;
-}
-
-a {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0; 
+    background: deepskyblue;
+  }
+  
+  .navigation a {
     text-decoration: none;
-    color: inherit;
-}
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #1565C0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
 
 a:hover {
     color: rgb(0, 61, 165);
@@ -44,28 +66,35 @@ li.odin {
 img {
     border-radius: .5em;
     height: auto;
-    width: 600px;
     max-width: 100%;
     object-fit: cover;
+}
+
+img:hover {
+    border: 3px solid rgb(77, 136, 160);
+    width: 592px;
 }
 
 #header > h1 {
     padding: .25em 1em;
     background: #f2f2f2;
     text-align: center;
-    font-size: 50px;
+    font-size: 4em;
     margin: 0;
-    border-bottom: 2px solid darkgrey;
-    /* color: rgb(77, 136, 160); */
+    border-bottom: 2px solid #ddd;
+    color: rgb(77, 136, 160);
 }
 
 .card {
     display: flex;
+    flex-basis: auto;
     margin: 30px;
     background: #f2f2f2;
     margin: 1em 0em;
     padding: .5em;
     justify-content: space-evenly;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
 }
 
 .car {
@@ -75,6 +104,7 @@ img {
     border-radius: .5em;
     justify-content: center;
     flex-wrap: wrap;
+    flex-basis: auto;
 }
 
 h2 {
@@ -93,16 +123,18 @@ h3 {
     text-align: center;
     margin: 5px;
     border-bottom: 1px solid darkgrey;
-    padding: 2px;
 }
 
 .specbox {
+    display: flex;
+    flex-direction: column;
     border: 2px solid rgb(77, 136, 160);
     border-radius: .3em;
     margin: 5px;
     padding: .5em;
     width: 250px;
     flex-shrink: 0;
+    justify-content: flex-start;
 }
 
 p {
@@ -115,8 +147,14 @@ p {
 
 .secondbox {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: flex-start;
     padding: .5em;
-    width: 1000px;
+    width: 600px;
     margin: 7px 0px;
+}
+
+.imagebox {
+    display: flex;
+    width: 600px;
 }
