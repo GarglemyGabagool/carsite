@@ -12,6 +12,7 @@ body {
     justify-content: flex-end;
     list-style: none;
     margin: 0; 
+    padding: 0;
     background: deepskyblue;
   }
   
@@ -87,8 +88,6 @@ img:hover {
 
 .card {
     display: flex;
-    flex-basis: auto;
-    margin: 30px;
     background: #f2f2f2;
     margin: 1em 0em;
     padding: .5em;
@@ -148,13 +147,12 @@ p {
 .secondbox {
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start;
     padding: .5em;
-    width: 600px;
+    max-width: 500px;
     margin: 7px 0px;
 }
 
 .imagebox {
     display: flex;
-    width: 600px;
+    max-width: 600px;
 }
