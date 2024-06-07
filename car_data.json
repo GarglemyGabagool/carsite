@@ -1,0 +1,180 @@
+{
+    "gallant": {
+        "make": "Mitsubishi",
+        "model": "Gallant",
+        "trim": "Not sure",
+        "year": "1997",
+        "description": "My first car that I bought from a coworker in 2019 at my first job at Publix. Car broke down three months after buying it in the middle of the road because a serpentine belt that connected basically everything together failed. Would have cost more to replace the air compressor to fix the car than I boguht the car for so I scrapped it.",
+        "pros": 
+        [
+            "Cheap",
+            "Made me realize I like driving"
+        ],
+        "cons": 
+        [
+            "Broke down after three months", 
+            "Squealed like a diabetic hog when starting up", 
+            "Was absolutely nasty inside, previous owner had kids"
+        ],
+        "technical": 
+        [
+            {
+                "engine": "It had one"
+            },
+            {
+                "Horsepower": "At least one"
+            },
+            {
+                "Torque": "No idea"
+            },
+            {
+                "0-60": "Eventually"
+            },
+            {
+                "Color": "White"
+            }
+        ]
+},
+    "mustang": {
+    "make": "Ford",
+    "model": "Mustang",
+    "trim": "Ecoboost Premium",
+    "year": "2018",
+    "description": "Bought this in 2019 after the Gallant died. Didn't spend perhaps as much time as I could have but I mostly enjoyed it.",
+    "pros": 
+    [
+        "Was my first 'real' car, financed and everything",
+        "A lot nicer than the Galant, inside and out",
+        "More interesting to drive than the Galant",
+        "Taught me a bunch of basic car maintenance like oil changes and air filter changes",
+        "Decent cargo space, rear seats folded down",
+        "Good gas mileage for a 'muscle' car",
+        "Ventilated Seats in the Alabama summer"
+    ],
+    "cons": 
+    [
+        "Not the V8",
+        "Subpar handling, back liked to break free",
+        "Not super quick in the grand scheme of things",
+        "Pretty weak exhaust note",
+        "Relatively large for a two-door coupe",
+        "10-speed automatic started having awfully harsh shifts, would shake the car"
+    ],
+    "technical": 
+    [
+        {
+            "engine": "2.0L Inline 4-Cylinder"
+        },
+        {
+            "Horsepower": "310 HP"
+        },
+        {
+            "Torque": "350 lb-ft"
+        },
+        {
+            "0-60": "5.5 seconds"
+        },
+        {
+            "Color": "Ingot Silver"
+        }
+    ]
+},
+"corvette": {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "trim": "3LT Z51",
+    "year": "2015",
+    "description": "I loved this car. I was in love as soon as I saw it on the dealer's website. I traded in the Mustang for it which was great because the Mustang's transmission was probably about to explode",
+    "pros": 
+    [
+
+    ],
+    "cons": 
+    [
+
+    ],
+    "technical": 
+    [
+        {
+            "engine": "6.2L V8-Cylinder"
+        },
+        {
+            "Horsepower": "460 HP"
+        },
+        {
+            "Torque": "465 lb-ft"
+        },
+        {
+            "0-60": "3.7 seconds"
+        },
+        {
+            "Color": "Silver Metalic"
+        }
+    ]
+},
+"civic": {
+    "make": "Honda",
+    "model": "Civic",
+    "trim": "Sport Touring Hatchback",
+    "year": "2022",
+    "description": "",
+    "pros": 
+    [],
+    "cons": 
+    [],
+    "technical": 
+    [
+        {
+            "engine": "1.5L Inline 4-Cylinder"
+        },
+        {
+            "Horsepower": "180 HP"
+        },
+        {
+            "Torque": "177 lb-ft"
+        },
+        {
+            "0-60": "7.7 seconds"
+        },
+        {
+            "Color": "Lunar Silver Metallic"
+        }
+    ]
+},
+"supra": {
+    "make": "Toyota",
+    "model": "Supra",
+    "trim": "A91",
+    "year": "2021",
+    "description": "Grew bored and tired of the civic so I started looking around for a new car. Almost pulled the trigger on a BMW i8 but I saw this at the local Toyota dealership and I loved the color.",
+    "pros": 
+    [
+        "Very unique and in my opinion beautiful exterior",
+        "Great infotainment systme borrowed from BMW",
+        "Great gas mileage",
+        "Very zippy and nimble",
+        "Has "
+    ],
+    "cons": 
+    [
+    ],
+    "technical": 
+    [
+        {
+            "engine": "3.0L Inline 6-Cylinder"
+        },
+        {
+            "Horsepower": "382 HP"
+        },
+        {
+            "Torque": "368 lb-ft"
+        },
+        {
+            "0-60": "3.9 seconds"
+        },
+        {
+            "Color": "Refraction Blue"
+        }
+    ]
+}
+}
