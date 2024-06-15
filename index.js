@@ -21,6 +21,14 @@ app.get('/projects', (req, res) => {
     res.render('projects');
 })
 
+app.get('/cars', (req, res) => {
+    res.render('mycars');
+})
+
+app.get('/dream_cars', (req, res) => {
+    res.render('dreamcars');
+})
+
 app.listen(PORT, () => {
     console.log("LISTENING ON PORT " + PORT);
 })
